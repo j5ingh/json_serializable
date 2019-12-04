@@ -25,6 +25,12 @@ final uriString = ToFromStringHelper(
   'Uri',
 );
 
+final localeString = ToFromStringHelper(
+  'Locale.fromSubtags',
+  'toString()',
+  'Uri',
+);
+
 /// Package-internal helper that unifies implementations of [Type]s that convert
 /// trivially to-from [String].
 class ToFromStringHelper {

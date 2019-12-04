@@ -20,6 +20,7 @@ import 'type_helpers/enum_helper.dart';
 import 'type_helpers/iterable_helper.dart';
 import 'type_helpers/json_converter_helper.dart';
 import 'type_helpers/json_helper.dart';
+import 'type_helpers/locale_helper.dart';
 import 'type_helpers/map_helper.dart';
 import 'type_helpers/uri_helper.dart';
 import 'type_helpers/value_helper.dart';
@@ -40,6 +41,7 @@ class JsonSerializableGenerator
     DurationHelper(),
     JsonHelper(),
     UriHelper(),
+    LocaleHelper(),
   ];
 
   final List<TypeHelper> _typeHelpers;
